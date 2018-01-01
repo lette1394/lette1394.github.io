@@ -6,6 +6,7 @@
     "version": "3.4.3"
   },
   "dependencies": {
+    "bower": "^1.8.2",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
@@ -17,5 +18,8 @@
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
   }
 }

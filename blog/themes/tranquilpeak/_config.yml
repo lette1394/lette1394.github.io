@@ -32,7 +32,7 @@ image_dir: assets/images
 #                url: /         # URL of the link. If the URL is internal, domain name is not necessary
 #                icon: home     # Name of the font awesome icon class without the `fa-`
 #                               # Go to http://fontawesome.io/icons/ to find class name of icon
-sidebar:
+sidebar: 
     menu:
         home:
             title: global.home
@@ -121,8 +121,8 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: lette1394@gmail.com
+    location: Seoul/Korea
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
@@ -154,10 +154,10 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
-clear_reading: true
+clear_reading: false
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
 thumbnail_image: true
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
@@ -180,7 +180,7 @@ cover_image: cover.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
 favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
-image_gallery: true
+image_gallery: false
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
 archive_pagination: true
 category_pagination: true
@@ -191,7 +191,7 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: lette1394-github-io
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:

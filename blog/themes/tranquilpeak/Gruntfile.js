@@ -44,10 +44,10 @@ module.exports = function(grunt) {
   }
 
   // Load task functions
+
   var taskConfigurations = loadTasks('./tasks/config');
   var registerDefinitions = loadTasks('./tasks/register');
-
   // Run task functions to configure Grunt.
-  invokeConfigFn(taskConfigurations);
   invokeConfigFn(registerDefinitions);
+  invokeConfigFn(taskConfigurations);
 };

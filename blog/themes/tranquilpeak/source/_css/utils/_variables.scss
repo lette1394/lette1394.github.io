@@ -2,27 +2,29 @@
 // --------------------------------------------
 
 // Font families
+$noto-sans-kr:          'Noto Sans KR', sans-serif;
+$nanum-gothic-coding:   'Nanum Gothic Coding', monospace;
 $open-sans:            'Open Sans';
 $open-sans-sans-serif: 'Open Sans', sans-serif;
 $merriweather-serif:   'Merriweather', serif;
 $monospace:             Menlo, Consolas, monospace;
 
-$font-family-base: $open-sans-sans-serif;
+$font-family-base: $noto-sans-kr;
 
 $font-families: (
    // base
-   'headings':          $open-sans-sans-serif,
+   'headings':          $noto-sans-kr,
    // components
    'code':              $monospace,
-   'caption':           $merriweather-serif,
-   'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
-   'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
+   'caption':           $noto-sans-kr,
+   'image-gallery':     $noto-sans-kr,
+   'post-header-cover': $noto-sans-kr,
+   'post-meta':         $noto-sans-kr,
+   'post-content':      $noto-sans-kr,
+   'post-excerpt-link': $noto-sans-kr,
    'highlight':         $monospace,
    // layout
-   'sidebar':           $open-sans-sans-serif
+   'sidebar':           $noto-sans-kr
 );
 
 // equal to 15px
@@ -165,7 +167,7 @@ $main: (
 
 // Highlight code
 $highlight: (
-    'background':  #f7f8f8,
+    'background':  #f3f4f4,
     'font-size':   1.4rem,
     'border':      1px solid,
     'line-height': 1.3em
