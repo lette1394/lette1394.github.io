@@ -37,6 +37,7 @@ module.exports = function(grunt) {
    */
   function invokeConfigFn(tasks) {
     for (var taskName in tasks) {
+      console.log(taskName)
       if (tasks.hasOwnProperty(taskName)) {
         tasks[taskName](grunt);
       }

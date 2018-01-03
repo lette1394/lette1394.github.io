@@ -1,6 +1,7 @@
 var randToken = require('rand-token');
 
 module.exports = function(grunt) {
+  console.log("inside");
   var website = {};
   var token = randToken.generate(60).toLocaleLowerCase();
   website['source/assets/js/script-' + token + '.min.js'] = ['source/assets/js/script.js'];
@@ -18,6 +19,9 @@ module.exports = function(grunt) {
       files: website
     }
   });
+  console.log("inside2");
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  console.log("inside3");
+  
 };

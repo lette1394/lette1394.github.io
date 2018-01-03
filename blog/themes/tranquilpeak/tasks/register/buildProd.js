@@ -7,8 +7,6 @@ module.exports = function(grunt) {
     'replace:cssFancybox',
     'replace:cssTranquilpeak',
     'concat',
-    'cssmin',
-    'uglify',
     'linkAssetsProd'
   ]);
 };
