@@ -1,13 +1,13 @@
 # Site Info
 title: "The Plain"
 description: "A minimalist Jekyll theme"
-author_name: "Heiswayi Nrird" # change this to your name
-logo_url: https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+author_name: "Jae Eun Na" # change this to your name
+logo_url: https://github.com/lette1394.png
 
 # Site Settings
 url: https://lette1394.github.io # main url
 baseurl:
-permalink: /:title # Post permalink
+permalink: /:year/:month/:day/:title # Post permalink
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax: true # enables support for mathjax - set to 'false' to disable
 theme: the-plain
