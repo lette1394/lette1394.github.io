@@ -52,6 +52,10 @@ h3 {
   font-size: 1.25rem;
 }
 
+h3.year {
+  margin-top: 3rem;
+}
+
 h4,
 h5,
 h6 {
@@ -400,7 +404,7 @@ section {
     padding: 0;
 
     li {
-      margin: 25px 0;
+      margin: 15px 0;
 
       .title {
         max-width: 100%;
@@ -432,9 +436,10 @@ section {
       @media (min-width: 992px) {
         a {
           border-bottom: 2px solid transparent;
-
+          padding: 0 0 1px 0;
+          
           &:hover {
-            border-color: #000;
+            border-color: rgba($color: #000000, $alpha: 0.7);
           }
         }
       }
