@@ -1,7 +1,8 @@
 # Site Info
-title: "Essays in Programming"
+title: Essays in Programming
 description: ""
-author_name: "Jae Eun Na" # change this to your name
+author_name: Jae Eun Na # change this to your name
+author_email: lette1394@gmail.com
 logo_url: https://github.com/lette1394.png
 
 # Site Settings

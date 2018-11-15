@@ -3,8 +3,53 @@ layout: page
 title: About
 ---
 
-Hello.
+### HELLO
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+안녕하세요. 개발자 **나재은**입니다. <br>
 
-**Less is more..**
+---
+
+우리가 사는 세상엔 <br>
+배울 것이 정말 많지만 <br>
+정작 배울 시간은 너무 부족합니다.<br>
+
+생각을 글로 정리하는 것을 좋아해 몇 번이고 블로그에 도전했으나
+
+리팩토링 책을 몇 권이나 가지고 있음에도
+
+### ENJOY
+
+최소한 재미를 찾기 위해 노력합니다.
+학습에 대한
+
+저의 학습은 두 가지를 중심으로 이루어집니다.
+
+### COMMUNICATION
+
+태초에 인류가 완벽한 의사소통이 가능했더라면 지금쯤 우주정복이 무리는 아니었을겁니다. 현실은 이상과 거리가 몇 광년만큼이나 떨어져 있었습니다. 
+
+### TERM
+
+용어는 알고자 하는 문제의 핵심이라고 생각합니다. 이름을 붙 일 때는 핵심을 나타내야 하므로, 용어가 표현하는 바를 깊게 이 해하는 것이 학습의 지름길이라고 생각합니다.
+
+처음 포인터를 학습할 때, 포인터의 활용 방법이나 문법에만 몰입되 었습니다. 그러다 보니 정작 포인터의 본질에 대해 잊게 되었고, 포 인터를 생소하게 사용한 코드를 보면 이해하는 데 애를 먹었습니다.
+
+Pointer는 '가리키는 것'이라는 뜻인데, 무엇을 가리키는가? 왜 가 리키는가? 가리킨다는 것은 어떤 의미인가? 같은 질문을 수없이 던 지며 포인터라는 용어에 대해 집중했습니다. 끝없는 질문을 통해 포 인터는 곧 자료구조이고, 메모리를 가리킨다는 것을 깊게 이해할 수 있었습니다.
+
+### HISTORY
+
+역사를 공부하는 것은 장기적인 관점에서 매우 중요하다고 생각 합니다. 모든 기술에 대해 그 필요성과 동기를 충분히 이해해야 진정으로 그 기술을 이해했다고 생각하기 때문입니다. 필요성과 동기를 이해하는 것은 곧 역사를 이해하는 것입니다. 또한 새로 운 기술이 나온다고 하더라도 역사가 튼튼하다면, 쉽게 흔들리 지 않을 것입니다.
+
+Said ≠ Heard
+
+Heard ≠ Listened
+
+Listened ≠ Understood
+
+Understood ≠ Agreed
+
+Agreed ≠ Convinced
+
+Convinced ≠ Acted
+
+BCG의 리더십 테크닉, 칸노 히로시, 비즈니스맵, 164p
