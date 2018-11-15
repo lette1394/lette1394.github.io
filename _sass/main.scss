@@ -15,7 +15,9 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Spoqa Han Sans";
+
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -210,21 +212,22 @@ code,
 pre,
 .code,
 .footnotes {
-  font-family: Consolas, monaco, monospace;
+  // font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 code {
   color: #f14e32;
   background: #eee;
   padding: 2px 6px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.8rem;
+  font-size: 14px;
   line-height: 1.4;
   white-space: pre;
   overflow-x: auto;
@@ -290,8 +293,17 @@ article {
 
   hr {
     border: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.4);
     margin: 30px 0;
+  }
+
+  .first-letter {
+    font-size: 244%;
+    float: left;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-right: 7px;
   }
 
   p {
@@ -437,7 +449,7 @@ section {
         a {
           border-bottom: 2px solid transparent;
           padding: 0 0 1px 0;
-          
+
           &:hover {
             border-color: rgba($color: #000000, $alpha: 0.7);
           }

@@ -19,7 +19,7 @@
 
   // Keyword
   .o {
-    font-weight: bold;
+    font-weight: normal;
   }
 
   // Operator
@@ -222,17 +222,17 @@
 
   // Literal.Number.Hex
   .mi {
-    color: #099;
+    color: #000;
   }
 
   // Literal.Number.Integer
   .mo {
-    color: #099;
+    color: #000;
   }
 
   // Literal.Number.Oct
   .sb {
-    color: #d14;
+    color: #000;
   }
 
   // Literal.String.Backtick

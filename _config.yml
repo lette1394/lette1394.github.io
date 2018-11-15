@@ -1,16 +1,15 @@
 # Site Info
-title: "The Plain"
-description: "A minimalist Jekyll theme"
+title: "Essays in Programming"
+description: ""
 author_name: "Jae Eun Na" # change this to your name
 logo_url: https://github.com/lette1394.png
 
 # Site Settings
-url: https://lette1394.github.io # main url
+url: https://lette1394.github.io # main url 
 baseurl:
-permalink: /:year/:month/:day/:title # Post permalink
+permalink: /:title # Post permalink
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax: true # enables support for mathjax - set to 'false' to disable
-theme: the-plain
 
 # Site Build
 highlighter: rouge
