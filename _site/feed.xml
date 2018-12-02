@@ -8,33 +8,7 @@
       
         <item>
           <title>포인터의 본질</title>
-          <description>&lt;p&gt;우리는 포인터를 어려워합니다. 저 역시 그렇습니다. 아직도 어렵습니다. 그런데 우리는 어떻게 공부하고 있나요? 포인터의 문법적인 요소, 즉 &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; 와 &lt;code class=&quot;highlighter-rouge&quot;&gt;-&amp;gt;&lt;/code&gt;으로 대변되는 피상적인 것에만 집착하고 있지는 않은가요?&lt;/p&gt;
-
-&lt;p&gt;&lt;img id=&quot;about__define-pointer&quot; class=&quot;center&quot; src=&quot;/assets/define-pointer.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;포인터는 무언가를 ‘가리키는 것’입니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;무엇을 가리키나요?
-메모리를 가리킵니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;그 방식은요?
-메모리 주소를 저장하고 있는 형태입니다. 여기서, 포인터는 자료구조의 일종이라는 사실이 드러납니다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;왜 그런가요?
-단순합니다. 프로그램은 메모리를 사용하기 때문입니다. 메모리에 접근해야 하기 때문입니다. 포인터는 메모리에 접근하기 위한 수단 중의 하나입니다.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;int *ptr;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;무슨 의미일까요? 메모리는 다 같은 메모리 아니였나요? &lt;code class=&quot;highlighter-rouge&quot;&gt;00000000&lt;/code&gt; 부터 &lt;code class=&quot;highlighter-rouge&quot;&gt;FFFFFFFF&lt;/code&gt;까지만 저장할 수 있으면 다 포인터지, 왜 &lt;code class=&quot;highlighter-rouge&quot;&gt;int&lt;/code&gt;가 붙었을까요?&lt;/p&gt;
-
-&lt;p&gt;그렇다면 &lt;code class=&quot;highlighter-rouge&quot;&gt;void&lt;/code&gt; 타입의 포인터는 무엇인가요?&lt;/p&gt;
+          <description>
 </description>
           <pubDate>2018-11-16T00:00:00+09:00</pubDate>
           <link>http://localhost:4000/%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%9D%98-%EB%B3%B8%EC%A7%88</link>
