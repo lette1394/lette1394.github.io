@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:200,300,400,500,600,700,900&display=swap&subset=korean');
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -184,7 +186,7 @@ iframe {
 
 ul,
 ol {
-  margin: 40px 0;
+  margin: 20px 0;
   padding-left: 50px;
 
   li {
@@ -308,7 +310,7 @@ article {
 
   p {
     font-size: 15px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     word-wrap: break-word;
   }
 
